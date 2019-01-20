@@ -48,7 +48,7 @@
         <property name="hibernate.show_sql">true</property>
 
         <!-- Drop and re-create the database schema on startup -->
-        <property name="hibernate.hbm2ddl.auto">create</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
 
         <!-- Names the annotated entity class -->
         <mapping class="org.hibernate.UserDtl.User"/>
@@ -71,6 +71,8 @@
          <mapping class="org.inheritance.join.Human"/>
          <mapping class="org.inheritance.join.Female"/>
          <mapping class="org.inheritance.join.Male"/>
+         
+         <mapping class="org.crudoperation.Department"/>
 
     </session-factory>
 
