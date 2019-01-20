@@ -54,7 +54,7 @@
         <mapping class="org.hibernate.UserDtl.User"/>
         <mapping class="org.hibernate.UserDtl.Employee"/>
         
-        <mapping class="org.hibernate.oneToone.Vehicle"/>
+        <!-- <mapping class="org.hibernate.oneToone.Vehicle"/>
         <mapping class="org.hibernate.oneToone.Customer"/>
         
          <mapping class="org.hibernate.oneTomany.Country"/>
@@ -62,7 +62,15 @@
          <mapping class="org.hibernate.oneTomany.District"/>
          
          <mapping class="org.hibernate.manyTomany.Banks"/>
-         <mapping class="org.hibernate.manyTomany.Customers"/>
+         <mapping class="org.hibernate.manyTomany.Customers"/> -->
+         
+         <mapping class="org.inheritance.SINGLE_TABLE.Vehicles"/>
+         <mapping class="org.inheritance.SINGLE_TABLE.FourWheelar"/>
+         <mapping class="org.inheritance.SINGLE_TABLE.TwoWheelar"/>
+         
+         <mapping class="org.inheritance.join.Human"/>
+         <mapping class="org.inheritance.join.Female"/>
+         <mapping class="org.inheritance.join.Male"/>
 
     </session-factory>
 

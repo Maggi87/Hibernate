@@ -1,4 +1,4 @@
-package org.hibernate.Main;
+package org.association.Main;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

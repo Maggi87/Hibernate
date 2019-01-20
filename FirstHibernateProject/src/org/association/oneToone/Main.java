@@ -1,4 +1,4 @@
-package org.hibernate.oneToone;
+package org.association.oneToone;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

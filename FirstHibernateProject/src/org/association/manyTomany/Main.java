@@ -1,4 +1,4 @@
-package org.hibernate.manyTomany;
+package org.association.manyTomany;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

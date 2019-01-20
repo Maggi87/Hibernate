@@ -1,4 +1,4 @@
-package org.hibernate.oneToone;
+package org.association.oneToone;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

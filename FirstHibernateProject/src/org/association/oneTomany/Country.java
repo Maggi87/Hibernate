@@ -1,4 +1,4 @@
-package org.hibernate.oneTomany;
+package org.association.oneTomany;
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -1,4 +1,4 @@
- package org.hibernate.Main;
+ package org.association.Main;
 
 import java.util.Date;
 
