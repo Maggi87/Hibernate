@@ -59,7 +59,10 @@
         
          <mapping class="org.hibernate.oneTomany.Country"/>
          <mapping class="org.hibernate.oneTomany.State"/>
-          <mapping class="org.hibernate.oneTomany.District"/>
+         <mapping class="org.hibernate.oneTomany.District"/>
+         
+         <mapping class="org.hibernate.manyTomany.Banks"/>
+         <mapping class="org.hibernate.manyTomany.Customers"/>
 
     </session-factory>
 
